@@ -19,12 +19,12 @@
       description: "The region for load balancers and ECS instances in this Rancher environment. Defaults to the region of the instance the service will be running on."
       type: "string"
       required: true
-    - variable: "SLB_VPCID"
+    - variable: "SLB_VPC_ID"
       label: "Aliyun VPC ID (Optional)"
       description: "The VPC for the load balancers and ECS instances in this Rancher environment. Defaults to the VPC of the instance the service will be running on."
       type: "string"
       required: false
-    - variable: "SLBUSE_PRIVATE_IP"
+    - variable: "SLB_USE_PRIVATE_IP"
       label: "ECS Private IP Lookup"
       description: "If your ECS instances are registered in Rancher with their private IP addresses, then this must be set to true."
       required: true
